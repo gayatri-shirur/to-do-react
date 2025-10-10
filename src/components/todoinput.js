@@ -4,6 +4,7 @@ function TodoInput(props) {
     const [inputText, setInputText] = useState('');
   return (
     <div >
+      
         <input type="text" 
         className="input-box-todo" 
         placeholder="Enter your Todo"
