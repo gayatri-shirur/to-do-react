@@ -16,4 +16,6 @@ body{
   height: 600px;
 }
 .app-heading{
-  padding: 4px;}
+  padding: 4px;
+  text-align: center;
+}
