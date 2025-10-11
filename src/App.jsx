@@ -7,7 +7,6 @@ function App() {
   const [listtodo,setListtodo]=useState([]);
   let addList=(inputText)=>{
     setListtodo([...listtodo,inputText]);
-    
   }
   return (
     <div className="main-container">
