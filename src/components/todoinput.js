@@ -3,7 +3,7 @@ import React,{useState} from "react";
 function TodoInput(props) {
     const [inputText, setInputText] = useState('');
   return (
-    <div >
+    <div>
        <input type="text" 
         className="input-box-todo" 
         placeholder="Enter your Todo"
