@@ -1,19 +1,19 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import "./App.css"
-import TodoInput from "./components/todoinput";
-import Todolist from "./components/todolist";
+import TodoInput from './components/todoinput'
+import Todolist from './components/todolist'
 
 function App() {
-  const [listtodo,setListtodo]=useState([]);
-  let addList=(inputText)=>{
-    setListtodo([...listtodo,inputText]);
+  const [listtodo, setlisttodo] = useState([]);
+  let addList =(inputText)=>{
+    setlisttodo([...listtodo,inputText]);
   }
   return (
     <div className="main-container">
       <div className="center-container">
-          <TodoInput addList={addList}/>
+        <TodoInput addList={addList}/>
         </div>
-         </div>
+        </div>
   )
 }
 
