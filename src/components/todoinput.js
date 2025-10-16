@@ -6,7 +6,7 @@ function TodoInput(props) {
   return (
     <div>
         <input type="text" 
-         className="input-box-todo" 
+         className="input-box-todo"
          placeholder="Enter your Todo"
          value={inputText}
        onChange={(e)=>{
