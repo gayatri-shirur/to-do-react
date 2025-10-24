@@ -13,6 +13,7 @@ function App() {
       <div className="center-container">
         <TodoInput addList={addList}/>
         <h1>Todo list </h1>
+        <div><h1>hi</h1></div>
         </div>
         </div>
   )
